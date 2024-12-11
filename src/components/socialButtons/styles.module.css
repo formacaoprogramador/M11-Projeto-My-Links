@@ -1,0 +1,18 @@
+.list {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.item {
+
+    a {
+        color: var(--color-primary);
+        font-size: 32px;
+
+        &:hover {
+            color: #e3e3e3;
+        }
+    }
+}

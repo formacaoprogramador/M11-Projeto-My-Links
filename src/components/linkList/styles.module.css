@@ -1,0 +1,27 @@
+.list {
+    position: relative;
+    width: 100%;
+}
+
+.item {
+
+    a {
+        padding: 12px 20px;
+        text-align: center;
+        display: block;
+        border-radius: 8px;
+        background-color: var(--color-primary);
+        color: var(--color-details);
+        border: 2px solid var(--color-details);
+        box-shadow: 4px 4px var(--color-details);
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 20px;
+
+        &:hover {
+            box-shadow: 2px 2px var(--color-details);
+            transform: translate3d(2px, 2px, 0);
+            color: var(--color-details);
+        }
+    }
+}
